@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7110478221E7954B008C63D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110478121E7954B008C63D5 /* AppDelegate.m */; };
+		7110478521E7954B008C63D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110478421E7954B008C63D5 /* ViewController.m */; };
+		7110478821E7954B008C63D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7110478621E7954B008C63D5 /* Main.storyboard */; };
+		7110478A21E7954C008C63D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7110478921E7954C008C63D5 /* Assets.xcassets */; };
+		7110478D21E7954C008C63D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7110478B21E7954C008C63D5 /* LaunchScreen.storyboard */; };
+		7110479021E7954C008C63D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110478F21E7954C008C63D5 /* main.m */; };
+		7110479821E796CE008C63D5 /* RCCrashServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110479721E796CE008C63D5 /* RCCrashServer.m */; };
+		711DED1321E896AE00247B53 /* RCCrashLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 711DED1121E896AE00247B53 /* RCCrashLogCell.m */; };
+		711DED1421E896AE00247B53 /* RCCrashLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711DED1221E896AE00247B53 /* RCCrashLogCell.xib */; };
+		7167C6F321E9D38000147401 /* RCImageScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167C6F221E9D38000147401 /* RCImageScaner.m */; };
+		7167C6F621E9F07000147401 /* bach_lanuch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7167C6F521E9F07000147401 /* bach_lanuch.jpg */; };
+		71C0AB9721E8840800767FCB /* RCCrashLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AB9621E8840800767FCB /* RCCrashLogController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7110477D21E7954B008C63D5 /* RCCrashServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCCrashServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7110478021E7954B008C63D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7110478121E7954B008C63D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7110478321E7954B008C63D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7110478421E7954B008C63D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7110478721E7954B008C63D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7110478921E7954C008C63D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7110478C21E7954C008C63D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7110478E21E7954C008C63D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7110478F21E7954C008C63D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7110479621E796CE008C63D5 /* RCCrashServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrashServer.h; sourceTree = "<group>"; };
+		7110479721E796CE008C63D5 /* RCCrashServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCrashServer.m; sourceTree = "<group>"; };
+		711DED1021E896AE00247B53 /* RCCrashLogCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrashLogCell.h; sourceTree = "<group>"; };
+		711DED1121E896AE00247B53 /* RCCrashLogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCrashLogCell.m; sourceTree = "<group>"; };
+		711DED1221E896AE00247B53 /* RCCrashLogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCCrashLogCell.xib; sourceTree = "<group>"; };
+		7167C6F121E9D38000147401 /* RCImageScaner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCImageScaner.h; sourceTree = "<group>"; };
+		7167C6F221E9D38000147401 /* RCImageScaner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCImageScaner.m; sourceTree = "<group>"; };
+		7167C6F421E9E9EF00147401 /* RCCrashDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrashDefine.h; sourceTree = "<group>"; };
+		7167C6F521E9F07000147401 /* bach_lanuch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bach_lanuch.jpg; sourceTree = "<group>"; };
+		71C0AB9521E8840800767FCB /* RCCrashLogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrashLogController.h; sourceTree = "<group>"; };
+		71C0AB9621E8840800767FCB /* RCCrashLogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCrashLogController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7110477A21E7954B008C63D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7110477421E7954B008C63D5 = {
+			isa = PBXGroup;
+			children = (
+				7110477F21E7954B008C63D5 /* RCCrashServer */,
+				7110477E21E7954B008C63D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7110477E21E7954B008C63D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7110477D21E7954B008C63D5 /* RCCrashServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7110477F21E7954B008C63D5 /* RCCrashServer */ = {
+			isa = PBXGroup;
+			children = (
+				7110479A21E7A170008C63D5 /* Crash */,
+				7110478021E7954B008C63D5 /* AppDelegate.h */,
+				7110478121E7954B008C63D5 /* AppDelegate.m */,
+				7110478321E7954B008C63D5 /* ViewController.h */,
+				7110478421E7954B008C63D5 /* ViewController.m */,
+				7167C6F521E9F07000147401 /* bach_lanuch.jpg */,
+				7110478621E7954B008C63D5 /* Main.storyboard */,
+				7110478921E7954C008C63D5 /* Assets.xcassets */,
+				7110478B21E7954C008C63D5 /* LaunchScreen.storyboard */,
+				7110478E21E7954C008C63D5 /* Info.plist */,
+				7110478F21E7954C008C63D5 /* main.m */,
+			);
+			path = RCCrashServer;
+			sourceTree = "<group>";
+		};
+		7110479A21E7A170008C63D5 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				7110479621E796CE008C63D5 /* RCCrashServer.h */,
+				7110479721E796CE008C63D5 /* RCCrashServer.m */,
+				71C0AB9521E8840800767FCB /* RCCrashLogController.h */,
+				71C0AB9621E8840800767FCB /* RCCrashLogController.m */,
+				711DED1021E896AE00247B53 /* RCCrashLogCell.h */,
+				711DED1121E896AE00247B53 /* RCCrashLogCell.m */,
+				711DED1221E896AE00247B53 /* RCCrashLogCell.xib */,
+				7167C6F121E9D38000147401 /* RCImageScaner.h */,
+				7167C6F221E9D38000147401 /* RCImageScaner.m */,
+				7167C6F421E9E9EF00147401 /* RCCrashDefine.h */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7110477C21E7954B008C63D5 /* RCCrashServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7110479321E7954C008C63D5 /* Build configuration list for PBXNativeTarget "RCCrashServer" */;
+			buildPhases = (
+				7110477921E7954B008C63D5 /* Sources */,
+				7110477A21E7954B008C63D5 /* Frameworks */,
+				7110477B21E7954B008C63D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCCrashServer;
+			productName = RCCrashServer;
+			productReference = 7110477D21E7954B008C63D5 /* RCCrashServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7110477521E7954B008C63D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					7110477C21E7954B008C63D5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 7110477821E7954B008C63D5 /* Build configuration list for PBXProject "RCCrashServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7110477421E7954B008C63D5;
+			productRefGroup = 7110477E21E7954B008C63D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7110477C21E7954B008C63D5 /* RCCrashServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7110477B21E7954B008C63D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7110478D21E7954C008C63D5 /* LaunchScreen.storyboard in Resources */,
+				7110478A21E7954C008C63D5 /* Assets.xcassets in Resources */,
+				7110478821E7954B008C63D5 /* Main.storyboard in Resources */,
+				711DED1421E896AE00247B53 /* RCCrashLogCell.xib in Resources */,
+				7167C6F621E9F07000147401 /* bach_lanuch.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7110477921E7954B008C63D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7167C6F321E9D38000147401 /* RCImageScaner.m in Sources */,
+				7110478521E7954B008C63D5 /* ViewController.m in Sources */,
+				71C0AB9721E8840800767FCB /* RCCrashLogController.m in Sources */,
+				7110479021E7954C008C63D5 /* main.m in Sources */,
+				711DED1321E896AE00247B53 /* RCCrashLogCell.m in Sources */,
+				7110478221E7954B008C63D5 /* AppDelegate.m in Sources */,
+				7110479821E796CE008C63D5 /* RCCrashServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7110478621E7954B008C63D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7110478721E7954B008C63D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7110478B21E7954C008C63D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7110478C21E7954C008C63D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7110479121E7954C008C63D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7110479221E7954C008C63D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7110479421E7954C008C63D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW528GQ4W5;
+				INFOPLIST_FILE = RCCrashServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jindan.RCCrashServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7110479521E7954C008C63D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW528GQ4W5;
+				INFOPLIST_FILE = RCCrashServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jindan.RCCrashServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7110477821E7954B008C63D5 /* Build configuration list for PBXProject "RCCrashServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7110479121E7954C008C63D5 /* Debug */,
+				7110479221E7954C008C63D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7110479321E7954C008C63D5 /* Build configuration list for PBXNativeTarget "RCCrashServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7110479421E7954C008C63D5 /* Debug */,
+				7110479521E7954C008C63D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7110477521E7954B008C63D5 /* Project object */;
+}

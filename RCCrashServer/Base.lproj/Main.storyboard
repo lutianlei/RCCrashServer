@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qg6-NS-gyR"/>
+                        <viewControllerLayoutGuide type="bottom" id="vFC-sV-MwI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7R-H8-cvR">
+                                <rect key="frame" x="156.5" y="158" width="62" height="30"/>
+                                <state key="normal" title="数组越界"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJN-cQ-PIC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bach_lanuch.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="w0I-uH-mef">
+                                <rect key="frame" x="67" y="228" width="240" height="365"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.91372549020000005" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIn-Bx-MPs">
+                                <rect key="frame" x="141.5" y="110" width="92" height="30"/>
+                                <state key="normal" title="查看崩溃日志"/>
+                                <connections>
+                                    <action selector="checkCrashLogs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZI-WA-Jzc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="w0I-uH-mef" secondAttribute="trailing" constant="52" id="2kp-Dd-OKM"/>
+                            <constraint firstItem="N7R-H8-cvR" firstAttribute="top" secondItem="Qg6-NS-gyR" secondAttribute="bottom" constant="138" id="4v9-pq-Qoj"/>
+                            <constraint firstItem="iIn-Bx-MPs" firstAttribute="top" secondItem="Qg6-NS-gyR" secondAttribute="bottom" constant="90" id="7wp-I2-DX9"/>
+                            <constraint firstItem="N7R-H8-cvR" firstAttribute="top" secondItem="iIn-Bx-MPs" secondAttribute="bottom" constant="18" id="OmK-cT-d5j"/>
+                            <constraint firstItem="w0I-uH-mef" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="U9X-UF-f8r"/>
+                            <constraint firstItem="N7R-H8-cvR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zbx-Kg-zPU"/>
+                            <constraint firstItem="w0I-uH-mef" firstAttribute="top" secondItem="N7R-H8-cvR" secondAttribute="bottom" constant="40" id="ZjX-UN-ZEc"/>
+                            <constraint firstItem="vFC-sV-MwI" firstAttribute="top" secondItem="w0I-uH-mef" secondAttribute="bottom" constant="74" id="kkH-nk-hwM"/>
+                            <constraint firstItem="iIn-Bx-MPs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qjU-AY-Jnm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="crashImgView" destination="w0I-uH-mef" id="BEK-ph-82c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="25.637181409295355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bach_lanuch.jpg" width="400" height="600"/>
+    </resources>
+</document>
