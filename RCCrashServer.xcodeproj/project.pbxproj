@@ -16,7 +16,6 @@
 		7110479821E796CE008C63D5 /* RCCrashServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110479721E796CE008C63D5 /* RCCrashServer.m */; };
 		711DED1321E896AE00247B53 /* RCCrashLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 711DED1121E896AE00247B53 /* RCCrashLogCell.m */; };
 		711DED1421E896AE00247B53 /* RCCrashLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711DED1221E896AE00247B53 /* RCCrashLogCell.xib */; };
-		715A01E721EA01FA00D26573 /* 异常日志列表效果.2019-01-12 19_03_21.gif in Resources */ = {isa = PBXBuildFile; fileRef = 715A01E621EA01FA00D26573 /* 异常日志列表效果.2019-01-12 19_03_21.gif */; };
 		7167C6F321E9D38000147401 /* RCImageScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167C6F221E9D38000147401 /* RCImageScaner.m */; };
 		7167C6F621E9F07000147401 /* bach_lanuch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7167C6F521E9F07000147401 /* bach_lanuch.jpg */; };
 		71C0AB9721E8840800767FCB /* RCCrashLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AB9621E8840800767FCB /* RCCrashLogController.m */; };
@@ -38,7 +37,6 @@
 		711DED1021E896AE00247B53 /* RCCrashLogCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrashLogCell.h; sourceTree = "<group>"; };
 		711DED1121E896AE00247B53 /* RCCrashLogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCrashLogCell.m; sourceTree = "<group>"; };
 		711DED1221E896AE00247B53 /* RCCrashLogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCCrashLogCell.xib; sourceTree = "<group>"; };
-		715A01E621EA01FA00D26573 /* 异常日志列表效果.2019-01-12 19_03_21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "异常日志列表效果.2019-01-12 19_03_21.gif"; sourceTree = "<group>"; };
 		7167C6F121E9D38000147401 /* RCImageScaner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCImageScaner.h; sourceTree = "<group>"; };
 		7167C6F221E9D38000147401 /* RCImageScaner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCImageScaner.m; sourceTree = "<group>"; };
 		7167C6F421E9E9EF00147401 /* RCCrashDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCrashDefine.h; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				7110478321E7954B008C63D5 /* ViewController.h */,
 				7110478421E7954B008C63D5 /* ViewController.m */,
 				7167C6F521E9F07000147401 /* bach_lanuch.jpg */,
-				715A01E621EA01FA00D26573 /* 异常日志列表效果.2019-01-12 19_03_21.gif */,
 				7110478621E7954B008C63D5 /* Main.storyboard */,
 				7110478921E7954C008C63D5 /* Assets.xcassets */,
 				7110478B21E7954C008C63D5 /* LaunchScreen.storyboard */,
@@ -167,7 +164,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				715A01E721EA01FA00D26573 /* 异常日志列表效果.2019-01-12 19_03_21.gif in Resources */,
 				7110478D21E7954C008C63D5 /* LaunchScreen.storyboard in Resources */,
 				7110478A21E7954C008C63D5 /* Assets.xcassets in Resources */,
 				7110478821E7954B008C63D5 /* Main.storyboard in Resources */,
